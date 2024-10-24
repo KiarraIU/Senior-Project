@@ -36,14 +36,6 @@ Input:
 - gen: An image generator
 Output:
 - A 5x5 grid of augmented MRI images with the corresponding class labels. 
-- 
-4. Inputs:
-
-5. Inputs:
-- dict
-2. 
-3. lll
-4. lllll
 
 
 
