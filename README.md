@@ -19,18 +19,19 @@ Install these libraries using pip.
 pip install os pandas matplotlib numpy tensorflow
 
 ## Functions and Usage
-1. split_data(dict_list)
+split_data(dict_list)
 Inputs:
 - dict_list: A list of directory paths for each class
 Outputs:
 train_df: Dataframe of 80% of the data.
 valid_df: Dataframe of 10% of the data.
 test_df: Dataframe of 10% of the data.
-2. create_gen_img(train_df, valid_df, test_df, batch_size)
+
+create_gen_img(train_df, valid_df, test_df, batch_size)
 Inputs:
 - train_df, valid_df, test_df
 - batch_size: The number of images to load in each batch.
-3. show_images(gen)
+show_images(gen)
 This function displays a grid of 25 augmented images that were produced by an ImageDataGenerator.
 Input:
 - gen: An image generator
